@@ -1,0 +1,34 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*add comment of what the bellow is*/
+
+:root {
+    --darkGrey: #31343d;
+    --cyan: #92ccce;
+    --bodyGrey: #445877;
+    --rightSpacing: 5%;
+}
+
+/* add comment of what the bellow is*/
+
+h1 {
+    font-size: 2.5rem;
+    background-color: var (--cyan);
+    color: var (--darkGrey);
+    padding: 5px 10px 5px 50px;
+}
+h2 {
+    display: inline-block;
+    position: absolute;
+    font-size: 1.5rem;
+    background-color: var (--cyan);
+    color: var(--darkGrey);
+    padding: 5px;
+    right: var(--rightSpacing);
+    bottom:20px;
+}
+h3 {
+    
+}
