@@ -2,7 +2,7 @@
 
 A personal progressive, interactive portfolio of Consolata Njeri
 
-# # Consolata Njeri's Github Protfolio # #
+#  Consolata Njeri's Github Protfolio  #
 
 # Description #
 
