@@ -1,10 +1,9 @@
 /* Styling for the portfolio page after reset */
-/* -------------------------------------------------------------------------------- */
+
 * {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* -------------------------------------------------------------------------------- */
 /* Variables */
 :root {
     --darkGrey: #31343d;
@@ -13,8 +12,7 @@
     --rightSpacing: 5%;
 }
 
-/* -------------------------------------------------------------------------------- */
-/* Base Element Styling, h's, p, li */
+/* Base Element Styling, h1, h2, h3, p, li */
 h1 {
     font-size: 2.5rem;
     background-color: var(--cyan);
@@ -62,9 +60,8 @@ li {
     margin: 0 2px;
 }
 
-/* -------------------------------------------------------------------------------- */
 /* Flexbox Classes */
-/* Pushes content to the left and right justifications of the webpage */
+/* Content is pushed left or right justifications of webpage */
 .flexSpaceBetween {
     display: flex;
     justify-content: space-between;
@@ -85,7 +82,6 @@ li {
     justify-content: space-between;
 }
 
-/* -------------------------------------------------------------------------------- */
 /* Top header Styling */
 header {
     background-color: var(--darkGrey);
@@ -105,7 +101,6 @@ header a {
     font-size: 1rem;
 }
 
-/* -------------------------------------------------------------------------------- */
 /* The top background hero image class */
 .hero {
     height: 250px;
@@ -116,7 +111,6 @@ header a {
     position: relative;
 }
 
-/* -------------------------------------------------------------------------------- */
 /* Classes for Project Images and Title Card over top of the image */
 /* imageContainer applies the border and is the parent positioning element for project title cards */
 .imageContainer {
@@ -131,12 +125,12 @@ header a {
     width: 100%;
 }
 
-/* Sets the special size for the first project image */
+/* project 1 special image sizing */
 .imageContainer:first-child img {
     height: 350px;
 }
 
-/* Sets the style for project images */
+/* projects image styling */
 .projectImage {
     display: flex;
     object-fit: cover;
@@ -144,7 +138,7 @@ header a {
     height: 100px;
 }
 
-/* Title Card Class applied over project images */
+/* Projects title image tags */
 .project-title {
     position: absolute;
     bottom: 15px;
@@ -152,19 +146,18 @@ header a {
     background-color: var(--cyan);
 }
 
-/* Sets initail image opacity lower than 100% */
+/* lowers the opacity of initial image under 100% */
 .imageContainer img {
     opacity: .4;
     transition: opacity .5s;
 }
 
-/* Sets the hover state of the images */
+/* Image hover page set */
 .imageContainer img:hover {
     opacity: 1;
 }
 
-/* -------------------------------------------------------------------------------- */
-/* Bottom Contact Me Navigation Styling */
+/* styling bottom nav contact me bottom section */
 .columnAlignment ul {
     display: flex;
     justify-content: space-between;
@@ -183,10 +176,9 @@ header a {
     margin: 20px 1% 0 1%;
 }
 
-/* -------------------------------------------------------------------------------- */
 /* Mobile Responsive Styling */
 @media screen and (max-width: 850px) {
-    /* Responsive Header Styling */
+    /* Header Responsive Styling */
     .flexSpaceBetween {
         flex-direction: column;
         align-items: center;
@@ -207,7 +199,7 @@ header a {
         font-size: .85rem;
     }
 
-    /* Responsive Hero Image Styling */
+    /* Hero image Responsive Styling */
     .hero {
         display: flex;
         justify-content: center;
@@ -218,7 +210,7 @@ header a {
        margin-bottom: 5px;
     }
 
-    /* Responsive Styling Main Section */
+    /* Main section Responsive Styling */
     .sectionRow {
         flex-direction: column;
         align-items: flex-start;
@@ -239,7 +231,7 @@ header a {
         justify-content: center;
     }
 
-    /* Responsive Styling Main Section Project Images */
+    /* Main project section Responsive Styling */
     .imageContainer, .imageContainer:first-child {
         width: 98%;
     }
@@ -248,7 +240,7 @@ header a {
         opacity: 1;
     }
 
-    /* Responsive Styling Bottom Nav */
+    /* Bottom Nav Responsive Styling */
     .columnAlignment ul {
         flex-direction: column;
         justify-content: flex-start;
