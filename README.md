@@ -1,2 +1,16 @@
 # Conso97.github.io
+
 A personal progressive, interactive portfolio of Consolata Njeri
+
+# # Consolata Njeri's Github Protfolio # #
+
+# Description #
+
+This project protrays the creation of my web development protfolio, it is a live site that currently has a home page, consisting of an about me, work, contact me and resume navigation bar. Along side the home page there are sub pages that break down the navigation bar section, the work section contains a brief description of myself, my education background, my hobbies and interests. 
+
+The 
+
+<img id="styledImage"
+    src="../css/Consolata's Portfolio.jpg" width="70%" height="70%"
+    alt="Consolata's Portfolio"
+  />
