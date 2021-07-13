@@ -103,9 +103,9 @@ header a {
 
 /* The top background hero image class */
 .hero {
-    height: 250px;
+    height: 450px;
     width: 100%;
-    background-image: url("../css/p2.jpg");
+    background-image: url("../css/Profile.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -127,7 +127,7 @@ header a {
 
 /* project 1 special image sizing */
 .imageContainer:first-child img {
-    height: 350px;
+    height: 150px;
 }
 
 /* projects image styling */
@@ -135,7 +135,7 @@ header a {
     display: flex;
     object-fit: cover;
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
 
 /* Projects title image tags */
