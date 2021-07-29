@@ -6,9 +6,9 @@
 
 /* Variables */
 :root {
-    --darkGrey: #31343d;
-    --cyan: #92ccce;
-    --bodyGrey: #445877;
+    --darkGrey: #070b0d;
+    --cyan: #4da8ba;
+    --bodyGrey: #151120;
     --rightSpacing: 5%;
 }
 
@@ -116,13 +116,13 @@ header a {
 .imageContainer {
     display: flex;
     position: relative;
-    width: calc(50% - 5px);
+    width: calc(90% - 5px);
     box-sizing: border-box;
     border: 4px solid var(--cyan);
     margin: 5px 0;
 }
 .imageContainer:first-child {
-    width: 100%;
+    width: 90%;
 }
 
 /* project 1 special image sizing */
