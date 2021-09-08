@@ -10,6 +10,14 @@ This project protrays the creation of my web development protfolio, it is a live
 
 The photos protrayed on the sub pages are of my self and screenshots of my deployed projects/HW in the world of coding. I hope to use this website to consolidate my work and interest to the public audience as well as any hiring managers who wish to hire me for my skills in coding. 
 
+# Technologies Used
+
+Built in visual studios with:
+
+* HTML
+* CSS
+* Flexbox
+
 # Consolata's Website #
 
 https://conso97.github.io/
@@ -18,3 +26,8 @@ https://conso97.github.io/
     src="css/Consolata'sP.jpg" width="70%" height="70%"
     alt="Consolata's Portfolio"
   />
+
+# Contact 
+
+* Name: Consolata Njeri
+* Email: Conso4u@gmail.com
